@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <CompilationType>CSharp</CompilationType>
+  <Description>Новый скрипт без наполнения.</Description>
+  <Id>ef8f0197-6ff6-4370-ac33-72b237ce9126</Id>
+  <Logic z:Id="i2" i:type="ExecutedStep">
+    <Childs>
+      <AbstractStep z:Id="i3" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>4017731a-2e9f-4526-a609-3c0b2f0740fb</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i4">
+            <PropertyName>Text</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>res_SAPGUI</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i5">
+            <PropertyName>XPath</PropertyName>
+            <_dataType>XPath</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i6">
+              <d7p1:Nodes xmlns:d8p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel">
+                <d8p1:list>
+                  <d7p1:XPathNode z:Id="i7">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i8">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i9">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'/app/con[0]/ses[0]/wnd[0]/tbar[1]/btn[48]'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>Id</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>SapGuiElement</d7p1:Name>
+                  </d7p1:XPathNode>
+                </d8p1:list>
+              </d7p1:Nodes>
+              <d7p1:ScreenShotBase64>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</d7p1:ScreenShotBase64>
+            </_xpathSettings>
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Desktop.Sap.GetText</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i10" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>1f6d4eea-9a21-40a0-add7-1999ad469c8a</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+      </AbstractStep>
+    </Childs>
+    <HeightOnFlowchart i:nil="true" />
+    <Id>ccbfbe7d-df8c-4211-af62-641d71c935eb</Id>
+    <Parent i:nil="true" />
+    <PositionOnFlowchart xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+    <PropertyValues />
+    <SelectedOptionId i:nil="true" />
+    <WidthOnFlowchart i:nil="true" />
+    <AutoCloseMode>None</AutoCloseMode>
+    <EnableStatus>true</EnableStatus>
+    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+    <RetryCount>-1</RetryCount>
+    <Text></Text>
+    <_activityFullName>BR.Core.Base.Container</_activityFullName>
+  </Logic>
+  <Name>first_lesson.pix</Name>
+  <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Params />
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>0</d2p1:_Build>
+    <d2p1:_Major>3</d2p1:_Major>
+    <d2p1:_Minor>2</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
+  <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
+  <Version i:nil="true" />
+</Script>

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <CompilationType>CSharp</CompilationType>
+  <Description i:nil="true" />
+  <Id>607e873b-24e8-4048-9c90-19f5ff350693</Id>
+  <Logic z:Id="i2" i:type="ExecutedStep">
+    <Childs>
+      <AbstractStep z:Id="i3" i:type="CommentStep">
+        <Childs />
+        <Id>9a4ae74d-6ee2-4d30-a77a-465593bb3dc4</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <Text>Формируем таблицу</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i4" i:type="ExecutedStep">
+        <Childs />
+        <Id>fecc0df0-8c60-4187-9c9e-fbf5c08fcd44</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i5">
+            <PropertyName>InitialTable</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Collections" i:type="d7p1:DataTableSettings">
+              <d7p1:Table>
+                <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+                  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DataTableSettingsTable" msdata:UseCurrentLocale="true">
+                    <xs:complexType>
+                      <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="DataTableSettingsTable">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element name="Столбец_x0020_1" type="xs:string" minOccurs="0" />
+                              <xs:element name="Столбец_x0020_2" type="xs:string" minOccurs="0" />
+                              <xs:element name="Столбец_x0020_3" type="xs:string" minOccurs="0" />
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:choice>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:schema>
+                <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+              </d7p1:Table>
+            </_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i6">
+            <PropertyName>BaseDataTable</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>dt</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.BaseCollections.DT.CreateTable</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i7" i:type="ExecutedStep">
+        <Childs />
+        <Id>de0a62ed-99f3-4135-a0ac-3347f63244af</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i8">
+            <PropertyName>InitialItems</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Collections" i:type="d7p1:DictionarySettings">
+              <d7p1:ArgumentsToCompile xmlns:d8p1="http://schemas.datacontract.org/2004/07/BR.Core">
+                <d8p1:ArgumentItem z:Id="i9">
+                  <d8p1:ArgumentName>Столбец 1</d8p1:ArgumentName>
+                  <d8p1:Expression>1</d8p1:Expression>
+                  <d8p1:Type>System.Object</d8p1:Type>
+                </d8p1:ArgumentItem>
+                <d8p1:ArgumentItem z:Id="i10">
+                  <d8p1:ArgumentName>Столбец 2</d8p1:ArgumentName>
+                  <d8p1:Expression>2</d8p1:Expression>
+                  <d8p1:Type>System.Object</d8p1:Type>
+                </d8p1:ArgumentItem>
+                <d8p1:ArgumentItem z:Id="i11">
+                  <d8p1:ArgumentName>Столбец 3</d8p1:ArgumentName>
+                  <d8p1:Expression>3</d8p1:Expression>
+                  <d8p1:Type>System.Object</d8p1:Type>
+                </d8p1:ArgumentItem>
+              </d7p1:ArgumentsToCompile>
+            </_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i12">
+            <PropertyName>Dictionary</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>str</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.BaseCollections.Dictionary.CreateDictionary</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i13" i:type="ExecutedStep">
+        <Childs />
+        <Id>46bae0fa-8892-4808-8d96-ca4b63c80e6d</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i14">
+            <PropertyName>InitialItems</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Collections" i:type="d7p1:DictionarySettings">
+              <d7p1:ArgumentsToCompile xmlns:d8p1="http://schemas.datacontract.org/2004/07/BR.Core">
+                <d8p1:ArgumentItem z:Id="i15">
+                  <d8p1:ArgumentName>Столбец 1</d8p1:ArgumentName>
+                  <d8p1:Expression>5</d8p1:Expression>
+                  <d8p1:Type>System.Object</d8p1:Type>
+                </d8p1:ArgumentItem>
+                <d8p1:ArgumentItem z:Id="i16">
+                  <d8p1:ArgumentName>Столбец 2</d8p1:ArgumentName>
+                  <d8p1:Expression>6</d8p1:Expression>
+                  <d8p1:Type>System.Object</d8p1:Type>
+                </d8p1:ArgumentItem>
+                <d8p1:ArgumentItem z:Id="i17">
+                  <d8p1:ArgumentName>Столбец 3</d8p1:ArgumentName>
+                  <d8p1:Expression>7</d8p1:Expression>
+                  <d8p1:Type>System.Object</d8p1:Type>
+                </d8p1:ArgumentItem>
+              </d7p1:ArgumentsToCompile>
+            </_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i18">
+            <PropertyName>Dictionary</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>str1</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.BaseCollections.Dictionary.CreateDictionary</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i19" i:type="ExecutedStep">
+        <Childs />
+        <Id>a2922dd5-1e2f-46a4-b98f-493194c5cf92</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i20">
+            <PropertyName>Row</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>str</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i21">
+            <PropertyName>InsertPosition</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Activities.BaseCollections.DT" i:type="d7p1:InsertPosition">End</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i22">
+            <PropertyName>AutoCreateColumns</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://www.w3.org/2001/XMLSchema" i:type="d7p1:boolean">false</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i23">
+            <PropertyName>BaseDataTable</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>dt</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.BaseCollections.DT.AddRow</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i24" i:type="ExecutedStep">
+        <Childs />
+        <Id>6332865b-9201-4e64-94af-ca2cd99d2a3d</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i25">
+            <PropertyName>Row</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>str1</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i26">
+            <PropertyName>InsertPosition</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Activities.BaseCollections.DT" i:type="d7p1:InsertPosition">End</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i27">
+            <PropertyName>AutoCreateColumns</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://www.w3.org/2001/XMLSchema" i:type="d7p1:boolean">false</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i28">
+            <PropertyName>BaseDataTable</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>dt</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.BaseCollections.DT.AddRow</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i29" i:type="CommentStep">
+        <Childs />
+        <Id>896e2255-629b-4c03-aaf2-f99acbb74758</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <Text>Удаляем строки по условию</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i30" i:type="ExecutedStep">
+        <Childs />
+        <Id>88ddfa52-686c-456e-be63-4dda7d1fb9d8</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i31">
+            <PropertyName>Filter</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Activities.BaseCollections.DataTable.Logic" i:type="d7p1:FilteringSettings">
+              <d7p1:Conditions>
+                <d7p1:FilteringCondition z:Id="i32">
+                  <d7p1:ColumnName>Столбец 1</d7p1:ColumnName>
+                  <d7p1:Expression>3</d7p1:Expression>
+                  <d7p1:Operator>Less</d7p1:Operator>
+                </d7p1:FilteringCondition>
+              </d7p1:Conditions>
+              <d7p1:Mode>Exclusive</d7p1:Mode>
+            </_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i33">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>dt1</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i34">
+            <PropertyName>BaseDataTable</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>dt</_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.BaseCollections.DataTable.FilterDataTable</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i35" i:type="ExecutedStep">
+        <Childs />
+        <Id>8a1b3029-220d-4aa8-b330-ef19490e65a3</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i36">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i37">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression></_expression>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+    </Childs>
+    <Id>f0b0afe1-7357-4059-91bc-496da66af286</Id>
+    <Parent i:nil="true" />
+    <PropertyValues />
+    <SelectedOptionId i:nil="true" />
+    <EnableStatus>true</EnableStatus>
+    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+    <RetryCount>-1</RetryCount>
+    <Text></Text>
+    <_activityFullName>BR.Core.Base.Container</_activityFullName>
+  </Logic>
+  <Name>Фильтрация.pix</Name>
+  <Params />
+  <Version i:nil="true" />
+</Script>
