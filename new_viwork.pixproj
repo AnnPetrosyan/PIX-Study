@@ -10,33 +10,23 @@
     <ProjectFileItem z:Id="i3">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>nuget.config</Path>
+      <Path>packages.config</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i4">
       <IsDirectory>false</IsDirectory>
       <IsMain>false</IsMain>
-      <Path>packages.config</Path>
-    </ProjectFileItem>
-    <ProjectFileItem z:Id="i5">
-      <IsDirectory>false</IsDirectory>
-      <IsMain>false</IsMain>
-      <Path>ViWork.pix</Path>
+      <Path>nuget.config</Path>
     </ProjectFileItem>
   </Files>
-  <MasterUploadId>2</MasterUploadId>
-  <Name>Активности Desktop</Name>
+  <MasterUploadId i:nil="true" />
+  <Name>new_viwork</Name>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>0</d2p1:_Build>
     <d2p1:_Major>3</d2p1:_Major>
     <d2p1:_Minor>2</d2p1:_Minor>
     <d2p1:_Revision>0</d2p1:_Revision>
   </PlatformVersion>
-  <ProjectMaterUploadIds>
-    <ProjectMaterUploadId>
-      <MasterUploadId>2</MasterUploadId>
-      <Url>https://master2.pc-dev.local:44600/</Url>
-    </ProjectMaterUploadId>
-  </ProjectMaterUploadIds>
+  <ProjectMaterUploadIds />
   <ProjectNamespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d2p1:string>System</d2p1:string>
     <d2p1:string>System.IO</d2p1:string>

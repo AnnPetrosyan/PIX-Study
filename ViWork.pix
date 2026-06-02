@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <CompilationType>CSharp</CompilationType>
+  <Description>Новый скрипт без наполнения.</Description>
+  <Id>73651d69-097b-4b76-852b-d64ed8cadabf</Id>
+  <Logic z:Id="i2" i:type="ExecutedStep">
+    <Childs>
+      <AbstractStep z:Id="i3" i:type="CommentStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>e5fdbc1d-510f-46e4-bfbd-17cf0ccee946</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Инициализация словаря</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i4" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>10dcb637-071d-47e0-99e9-83c79125a5d6</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i5">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>(object)new System.Collections.Generic.Dictionary&lt;string, System.Collections.Generic.List&lt;string&gt;&gt;()
+{
+    {"Отсутствие занятости", new System.Collections.Generic.List&lt;string&gt;() {"Отсутствие занятости"}},
+    {"Наставничество Стальнухин И.", null},
+    {"Наставничество Чернецов А.", null}
+}</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i6">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>projectTasks</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i7" i:type="CommentStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>40fee302-23e8-4d32-a3ce-adb0fac8bbe0</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Запуск браузера и переход на страницу табеля</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i8" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>28b95a02-4cc4-4cb5-b531-7ca0655d7555</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i9">
+            <PropertyName>URL</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"https://tms.vittecon.ru/timesheet"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i10">
+            <PropertyName>Browser</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>browserSession</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Web.LaunchSeleniumBrowser</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i11" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>09af2911-439d-45eb-b040-32681a50139b</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i12">
+            <PropertyName>SearchBy</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Web.Core" i:type="d7p1:ElementSearchBy">XPath</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i13">
+            <PropertyName>SearchString</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>""</_expression>
+            <_screenShotBase64>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</_screenShotBase64>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i14">
+            <PropertyName>Timeout</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>15</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i15">
+            <PropertyName>Browser</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>browserSession</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Web.WaitForWebElement</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i16" i:type="CommentStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>242465f2-286b-4550-a900-9a00a0aa3115</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Диалог с пользователем</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i17" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>89221da6-90b6-48fa-9f37-621afed171b7</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i18">
+            <PropertyName>Text</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Доступные проекты: 1 - Наставничество Стальнухин И, 2 - Отсутствие занятости, 3 - Наставничество Чернецов А."</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i19">
+            <PropertyName>Title</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Выбор проекта"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Выбор проекта</Text>
+        <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i20" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>34ceb5be-e350-46e4-a603-f2d3c3521f25</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i21">
+            <PropertyName>Text</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Введите номер или точное название проекта"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i22">
+            <PropertyName>Title</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Выберите проект"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i23">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>projectInput</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Interactive.InputBox</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i24" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>b6601200-2db4-4550-87d2-c3760c30360c</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i25">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>(projectInput == "1" || projectInput == "Наставничество Стальнухин И.") ? "Наставничество Стальнухин И." :
+(projectInput == "2" || projectInput == "Отсутствие занятости") ? "Отсутствие занятости" :
+(projectInput == "3" || projectInput == "Наставничество Чернецов А.") ? "Наставничество Чернецов А." : ""</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i26">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>selectedProject</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i27" i:type="CommentStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>844ee8e7-1a46-4532-88ba-e8832216a37f</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Получение задачи</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i28" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i29" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i30" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>b0fcde20-1c5f-4f92-a1e1-76b1e13e914a</Id>
+                <Parent z:Ref="i29" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i31">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Задачи: " + String.Join(", ", ((System.Collections.Generic.Dictionary&lt;string, System.Collections.Generic.List&lt;string&gt;&gt;)projectTasks)[selectedProject])</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i32" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>d37747dd-9b7e-473c-908b-5ddefa64d0d3</Id>
+                <Parent z:Ref="i29" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i33">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Введите точное название задачи из списка:"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i34">
+                    <PropertyName>Title</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Выберите задачу"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i35">
+                    <PropertyName>Result</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>taskInput</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Interactive.InputBox</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i36" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>3f7be06d-a867-4c64-aec7-f034b67d6fe0</Id>
+                <Parent z:Ref="i29" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i37">
+                    <PropertyName>Value</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>taskInput</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i38">
+                    <PropertyName>To</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>selectedTask</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <HeightOnFlowchart i:nil="true" />
+            <Id>27a8cd79-6684-40ca-ac41-864e82ac6b06</Id>
+            <Parent z:Ref="i28" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i39" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i40" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>fb7b4c4f-d43d-4a69-9b1c-41434114340b</Id>
+                <Parent z:Ref="i39" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i41">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Для выбранного проекта фиксированных задач нет. Введите задачу вручную."</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i42" i:type="ExecutedStep">
+                <Childs />
+                <HeightOnFlowchart>50</HeightOnFlowchart>
+                <Id>547151ce-90bc-4d5f-be6b-213d23782703</Id>
+                <Parent z:Ref="i39" />
+                <PositionOnFlowchart xmlns:d9p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i43">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>"Введите задачу"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i44">
+                    <PropertyName>Result</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>selectedTask</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <WidthOnFlowchart>360</WidthOnFlowchart>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Interactive.InputBox</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <HeightOnFlowchart i:nil="true" />
+            <Id>2cf9f246-fdb5-4530-a8f5-edc0df68e740</Id>
+            <Parent z:Ref="i28" />
+            <PositionOnFlowchart xmlns:d7p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <WidthOnFlowchart i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <HeightOnFlowchart i:nil="true" />
+        <Id>85ec02f6-ef8a-4723-a5a6-0b5078b5fa88</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i45">
+            <PropertyName>Condition</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>((System.Collections.Generic.Dictionary&lt;string, System.Collections.Generic.List&lt;string&gt;&gt;)projectTasks)[selectedProject] != null</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.If</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i46" i:type="CommentStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>96a8a00a-3bce-4252-822d-999980b9156c</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Описание трудозатрат</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i47" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>57d96412-20e4-4c99-8b6a-d57e656e8bb9</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i48">
+            <PropertyName>Text</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Подробно опишите проделанную работу:"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i49">
+            <PropertyName>Title</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Описание трудозатрат"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i50">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>description</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Interactive.InputBox</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i51" i:type="CommentStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>8f23256a-cb98-4e92-a80a-38dd88bf0deb</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Заполнение формы на странице</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i52" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>9f533f97-7a96-4329-8094-78cef963a84e</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i53">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>DateTime.Now.ToString("dd.MM.yyyy")</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i54">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>currentDate</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i55" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>24ab1747-df30-47d6-b0fc-48d252dc476f</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i56">
+            <PropertyName>Keys</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>currentDate</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i57">
+            <PropertyName>SearchString</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>":r3:"</_expression>
+            <_screenShotBase64>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</_screenShotBase64>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i58">
+            <PropertyName>Browser</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>browserSession</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Web.SendKeysInElement</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i59" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>427e3231-5cd2-496d-83e8-d2330675d127</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i60">
+            <PropertyName>Keys</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>currentDate</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i61">
+            <PropertyName>SearchString</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>":r3:"</_expression>
+            <_screenShotBase64>/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABAAQUDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+ijoMmmeZn7qMR68D+dAD6KZvb/nk/5j/Gje3/PJ/wAx/jQA+imb2/55P+Y/xo3t/wA8n/Mf40APopm9v+eT/mP8aN7f88n/ADH+NAD6KZvb/nk/5j/Gje3/ADyf8x/jQA+imb2/55P+Y/xo3t/zyf8AMf40APopm9v+eT/mP8aN7f8APJ/zH+NAD6KZvb/nk/5j/Gje3/PJ/wAx/jQA+imb2/55P+Y/xo3t/wA8n/Mf40APopm9v+eT/mP8aN7f88n/ADH+NAD6KZvb/nk/5j/Gje3/ADyf8x/jQA+imb2/55P+Y/xo3t/zyf8AMf40APopm9v+eT/mP8aN7f8APJ/zH+NAD6KZvb/nk/5j/Gje3/PJ/wAx/jQA+imb2/55P+Y/xo3t/wA8n/Mf40APopm9v+eT/mP8aN7f88n/ADH+NAD6KZvb/nk/5j/GigAk5KL2Lc/lmn0x/vx/739DT6ACiqF3qX2XVdPsfJ3fbDIN+7GzauemOc0Nqe3Xo9M8r79s0/m7umGAxjHv1zQBfoqnbarp15K0Vtf200iDLLHKrED14NSLfWjxQyrcwmOdtsThxhz6A9zwaALFFVP7V04Xn2M31t9qzt8nzV359MZzmmXOtaXZzmC51G1hlXqkkqqR+BNAF6iql1qdhYsi3d7bwFxlRLKFyPbNWgwZQykFSMgjvQAtFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAMf78f+9/Q0+mP9+P/AHv6Gn0Ac/runtf67ooMc5gRpvMkhZl2fJxllwRk+9VJtLlsfEUktnb3Fwv9mSgfaJHlRn3DCEsT19M11dFAHDadFdz63ojvFeGOJJVlU2PkRQZT7g4Bxn3I6VabRtT0/wDsazWSK5sba+VlKQMJFXDcsckYGcZx6V19FO+oraHn98mo3IeP7LcxyjUFkNtb2AWMASD94ZMZYkc5B/Sreo2l3e6f4nuUs7j/AEkxxwRtEd7hAASF64Jziu1ooTsrf10/yH1uctNnT9b1Ke80+5uoru3jWExQGXhQQ0ZwOMnnnitXw5aXFj4esba64mjjwwznb6D8BgfhWpRRfQSVgooopDCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAa4JAI6qcik82PuwU+jcU+igBnmx/wDPRP8AvoUebH/z0T/voU+igBnmx/8APRP++hR5sf8Az0T/AL6FPooAZ5sf/PRP++hR5sf/AD0T/voU+igBnmx/89E/76FHmx/89E/76FPooAZ5sf8Az0T/AL6FHmx/89E/76FPooAZ5sf/AD0T/voUebH/AM9E/wC+hT6KAGebH/z0T/voUebH/wA9E/76FPooAZ5sf/PRP++hR5sf/PRP++hT6KAGebH/AM9E/wC+hR5sf/PRP++hT6KAGebH/wA9E/76FHmx/wDPRP8AvoU+igBnmx/89E/76FHmx/8APRP++hT6KAGebH/z0T/voUebH/z0T/voU+igBnmx/wDPRP8AvoUebH/z0T/voU+igBnmx/8APRP++hR5sf8Az0T/AL6FPooAZ5sf/PRP++hR5sf/AD0T/voU+igBnmx/89E/76FFPooA/9k=</_screenShotBase64>
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i62">
+            <PropertyName>Browser</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>browserSession</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Web.SendKeysInElement</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i63" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>d2277bb2-80fa-4f64-b0b2-7d10610930b5</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Desktop.Sap.SetSelectedComboBoxEntry</_activityFullName>
+      </AbstractStep>
+    </Childs>
+    <HeightOnFlowchart i:nil="true" />
+    <Id>b9d615f3-686d-491e-8d48-8f6ffeb3ff1c</Id>
+    <Parent i:nil="true" />
+    <PositionOnFlowchart xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+    <PropertyValues />
+    <SelectedOptionId i:nil="true" />
+    <WidthOnFlowchart i:nil="true" />
+    <AutoCloseMode>None</AutoCloseMode>
+    <EnableStatus>true</EnableStatus>
+    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+    <RetryCount>-1</RetryCount>
+    <Text></Text>
+    <_activityFullName>BR.Core.Base.Container</_activityFullName>
+  </Logic>
+  <Name>ViWork.pix</Name>
+  <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Params />
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>0</d2p1:_Build>
+    <d2p1:_Major>3</d2p1:_Major>
+    <d2p1:_Minor>2</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
+  <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
+    <d2p1:Variable z:Id="i64">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>projectTasks</d2p1:Name>
+      <d2p1:TypeString>System.Object</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i65">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>currentDate</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i66">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>projectInput</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i67">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>taskInput</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i68">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>selectedProject</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i69">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>selectedTask</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i70">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>description</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+  </Variables>
+  <Version i:nil="true" />
+</Script>
