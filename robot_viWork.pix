@@ -8182,13 +8182,755 @@
         <SelectedOptionId>1</SelectedOptionId>
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
         <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
       </AbstractStep>
       <AbstractStep z:Id="i910" i:type="CommentStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>19dbef04-956e-46e7-940a-27e086279d2c</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Получить координаты поля «Проект»</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i911" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>5470d993-6b7c-4a8e-b23d-d5267b238e23</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i912">
+            <PropertyName>Browser</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>browserSession</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i913">
+            <PropertyName>ClientArea</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>projectPosition</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i914">
+            <PropertyName>SearchBy</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Web.Core" i:type="d7p1:ElementSearchBy">XPath</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i915">
+            <PropertyName>SearchString</PropertyName>
+            <_dataType>XPath</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i916">
+              <d7p1:Nodes xmlns:d8p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel">
+                <d8p1:list>
+                  <d7p1:XPathNode z:Id="i917">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i918">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i919">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'ru'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>lang</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i920">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'light'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>data-theme</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>html</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i921">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i922">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i923">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vh-100'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>body</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i924">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i925">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>1</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i926">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'app-root'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>id</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i927">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i928">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>1</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i929">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-hdIQv vui-nK14F vui-utK41'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i930">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i931">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>2</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i932">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-hdIQv vui-gg_Ss vui-utK41 vui-EP405'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i933">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'flex: 1 1 0%;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i934">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i935">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>2</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i936">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-hdIQv vui-nK14F vui-o2M9l'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i937">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'flex: 1 1 0%;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i938">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i939">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i940">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-O60xr PageContainer-root vui-v2eC7'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i941">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i942">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i943">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-I8bms'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i944">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i945">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>2</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i946">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-hdIQv vui-nK14F vui-utK41 vui-hyB6E PageContainer-contentContainer'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i947">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i948">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i949">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-hdIQv vui-nK14F'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i950">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'row-gap: 16px;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i951">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i952">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>2</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i953">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-hdIQv vui-gg_Ss'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i954">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'column-gap: 32px;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i955">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i956">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>1</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i957">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-GZbeB vui-UpH04 Panel-root'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i958">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'flex: 1 1 0%;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i959">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i960">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i961">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-OPYKC Panel-scrollContainer'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i962">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i963">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i964">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-ki8ij Panel-content'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i965">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i966">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i967">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-hdIQv vui-nK14F'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i968">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'row-gap: 24px;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i969">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i970">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>1</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i971">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-f4Qvj'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i972">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'grid-template-columns: repeat(12, 1fr); gap: 16px 10px;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i973">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i974">
+                          <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>3</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i975">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'grid-column: 1 / span 12;'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>style</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i976">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i977">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i978">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-crAqN'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i979">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i980">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i981">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'vui-mvlUN'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i982">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i983">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i984">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth vui-RV0zU vui-W9Q7C vui-UXSmI MuiSelect-root css-frliyw'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                  <d7p1:XPathNode z:Id="i985">
+                    <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                      <d11p1:string>and</d11p1:string>
+                      <d11p1:string>and</d11p1:string>
+                      <d11p1:string>and</d11p1:string>
+                      <d11p1:string>and</d11p1:string>
+                    </d7p1:AttributeOperators>
+                    <d7p1:Attributes>
+                      <d8p1:list>
+                        <d7p1:XPathAttribute z:Id="i986">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value i:nil="true" />
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name></d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i987">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'0'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>tabindex</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i988">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'combobox'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>role</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i989">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'false'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>aria-expanded</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i990">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'listbox'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>aria-haspopup</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                        <d7p1:XPathAttribute z:Id="i991">
+                          <d7p1:IsEnabled>false</d7p1:IsEnabled>
+                          <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
+                          <d7p1:Operator>Equal</d7p1:Operator>
+                          <d7p1:Value>'MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-mp9f0v'</d7p1:Value>
+                          <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
+                          <d7p1:_name>class</d7p1:_name>
+                        </d7p1:XPathAttribute>
+                      </d8p1:list>
+                    </d7p1:Attributes>
+                    <d7p1:IsEnabled>true</d7p1:IsEnabled>
+                    <d7p1:Name>div</d7p1:Name>
+                  </d7p1:XPathNode>
+                </d8p1:list>
+              </d7p1:Nodes>
+              <d7p1:ScreenShotBase64>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</d7p1:ScreenShotBase64>
+            </_xpathSettings>
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Web.GetAbsolutePosition</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i992" i:type="ExecutedStep">
+        <Childs />
+        <HeightOnFlowchart>50</HeightOnFlowchart>
+        <Id>f1751eb6-0b8c-4a86-93e0-eba7851efe5e</Id>
+        <Parent z:Ref="i2" />
+        <PositionOnFlowchart xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Numerics" i:nil="true" />
+        <PropertyValues>
+          <PropertyValue z:Id="i993">
+            <PropertyName>CoordinateX</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>projectPosition.X + 50</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i994">
+            <PropertyName>CoordinateY</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>projectPosition.Y + 20</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <WidthOnFlowchart>360</WidthOnFlowchart>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Desktop.Mouse.MouseClickActivity</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i995" i:type="CommentStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>a4cbb82e-2fa3-4dfd-ab8e-38e698b59034</Id>
@@ -8200,7 +8942,7 @@
         <IsCollapsed>false</IsCollapsed>
         <Text>Инициализация списка</Text>
       </AbstractStep>
-      <AbstractStep z:Id="i911" i:type="CommentStep">
+      <AbstractStep z:Id="i996" i:type="CommentStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>4e81ab85-cad8-4675-8fde-5cedab52b8ed</Id>
@@ -8212,7 +8954,7 @@
         <IsCollapsed>false</IsCollapsed>
         <Text>Захватить все пункты</Text>
       </AbstractStep>
-      <AbstractStep z:Id="i912" i:type="CommentStep">
+      <AbstractStep z:Id="i997" i:type="CommentStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>c14d5971-9f11-4d28-a833-424d919c443b</Id>
@@ -8224,7 +8966,7 @@
         <IsCollapsed>false</IsCollapsed>
         <Text>Сохранить текст каждого пункта</Text>
       </AbstractStep>
-      <AbstractStep z:Id="i913" i:type="ExecutedStep">
+      <AbstractStep z:Id="i998" i:type="ExecutedStep">
         <Childs />
         <HeightOnFlowchart>50</HeightOnFlowchart>
         <Id>115af4b0-5ace-4ea5-b4da-c3e183c52982</Id>
@@ -8258,154 +9000,154 @@
   <Name>robot_viWork.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i914">
+    <Parameter z:Id="i999">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Текущая дата</Description>
       <Name>currentDate</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i915">
+    <Parameter z:Id="i1000">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Текст с нумерованными проектами</Description>
       <Name>projectsText</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i916">
+    <Parameter z:Id="i1001">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>счетчик для нумерации</Description>
       <Name>counter</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
-    <Parameter z:Id="i917">
+    <Parameter z:Id="i1002">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Ввод пользователя(проект)</Description>
       <Name>projectInput</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i918">
+    <Parameter z:Id="i1003">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Название выбранного проекта</Description>
       <Name>selectedProject</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i919">
+    <Parameter z:Id="i1004">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Есть ли выпадающий список задач</Description>
       <Name>taskDropdownExists</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i920">
+    <Parameter z:Id="i1005">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Текст с нумерованными задачами</Description>
       <Name>tasksText</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i921">
+    <Parameter z:Id="i1006">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Ввод пользователя (задача)</Description>
       <Name>taskInput</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i922">
+    <Parameter z:Id="i1007">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Выбранная задача</Description>
       <Name>selectedTask</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i923">
+    <Parameter z:Id="i1008">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Описание трудозатрат</Description>
       <Name>description</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i924">
+    <Parameter z:Id="i1009">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>Ответ пользователя на подтверждение</Description>
       <Name>confirm</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i925">
+    <Parameter z:Id="i1010">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>itemText</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i926">
+    <Parameter z:Id="i1011">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>tText</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i927">
+    <Parameter z:Id="i1012">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>selectedTime</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i928">
+    <Parameter z:Id="i1013">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>timeInput</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i929">
+    <Parameter z:Id="i1014">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>timeValid</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i930">
+    <Parameter z:Id="i1015">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>timeText</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Object</TypeString>
     </Parameter>
-    <Parameter z:Id="i931">
+    <Parameter z:Id="i1016">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>timeFound</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i932">
+    <Parameter z:Id="i1017">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>numberOfSteps</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
-    <Parameter z:Id="i933">
+    <Parameter z:Id="i1018">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>projectIndex</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
-    <Parameter z:Id="i934">
+    <Parameter z:Id="i1019">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>taskIndex</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Int32</TypeString>
     </Parameter>
-    <Parameter z:Id="i935">
+    <Parameter z:Id="i1020">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>projectsList</Name>
