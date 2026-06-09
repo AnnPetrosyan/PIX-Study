@@ -2397,7 +2397,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -5712,7 +5712,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -7319,7 +7319,7 @@
           <PropertyValue z:Id="i816">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"На экране открыт список проектов. Посчитайте номер нужного проекта (начиная с 1) и нажмите закрыть."</_expression>
+            <_expression>"На экране открыт список проектов. Посчитайте номер нужного проекта и нажмите закрыть."</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -9283,7 +9283,7 @@
                   <PropertyValue z:Id="i1032">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>"На экране открыт список задач. Посчитайте номер нужной задачи (начиная с 1) и нажмите закрыть."</_expression>
+                    <_expression>"На экране открыт список задач. Посчитайте номер нужной задачи и нажмите закрыть."</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -10429,7 +10429,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <IsCollapsed>false</IsCollapsed>
-        <Text>Блок «Описание трудозатрат»</Text>
+        <Text>Описание трудозатрат</Text>
       </AbstractStep>
       <AbstractStep z:Id="i1151" i:type="ExecutedStep">
         <Childs />
@@ -10441,7 +10441,7 @@
           <PropertyValue z:Id="i1152">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"Подробно опишите проделанную работу"</_expression>
+            <_expression>"Опишите проделанную работу"</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -11213,7 +11213,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <IsCollapsed>false</IsCollapsed>
-        <Text>Блок «Добавить в черновик»</Text>
+        <Text>Добавить в черновик</Text>
       </AbstractStep>
       <AbstractStep z:Id="i1241" i:type="ExecutedStep">
         <Childs />

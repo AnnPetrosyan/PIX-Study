@@ -432,7 +432,7 @@
         <SelectedOptionId>0</SelectedOptionId>
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -1288,7 +1288,7 @@
         <SelectedOptionId>0</SelectedOptionId>
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -2132,7 +2132,7 @@
         <SelectedOptionId>0</SelectedOptionId>
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -2197,7 +2197,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -2242,7 +2242,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -2397,7 +2397,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -3096,7 +3096,7 @@
         <SelectedOptionId>0</SelectedOptionId>
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -3141,7 +3141,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -5574,7 +5574,7 @@
         <SelectedOptionId>1</SelectedOptionId>
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -5712,7 +5712,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -5749,7 +5749,7 @@
         <SelectedOptionId i:nil="true" />
         <WidthOnFlowchart>360</WidthOnFlowchart>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>false</EnableStatus>
+        <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -9283,7 +9283,7 @@
                   <PropertyValue z:Id="i1032">
                     <PropertyName>Text</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>"На экране открыт список задач. Посчитайте номер нужной задачи и нажмите закрыть."</_expression>
+                    <_expression>"На экране открыт список задач. Посчитайте номер нужной задачи (начиная с 1) и нажмите закрыть."</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -10441,7 +10441,7 @@
           <PropertyValue z:Id="i1152">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"Опишите проделанную работу"</_expression>
+            <_expression>"Подробно опишите проделанную работу"</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -12956,7 +12956,7 @@
     <Text></Text>
     <_activityFullName>BR.Core.Base.Container</_activityFullName>
   </Logic>
-  <Name>robot_viWork.pix</Name>
+  <Name>final_version.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
     <Parameter z:Id="i1441">
